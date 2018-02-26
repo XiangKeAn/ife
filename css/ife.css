@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #DEDEDE;
+}
+.nav{
+	background-color: #333333;
+	padding: 0 10px 0 30px;
+}
+.logo{
+	float: left;
+	margin-top: 5px;
+}
+.nav ul{
+	float: right;
+}
+.nav li{
+	display: inline-block;
+	padding: 20px 0px;
+	text-align: right;
+}
+.nav:after{
+	content:"" ;
+	display: block;
+	clear: both;
+}
+.nav a{
+	color: white;
+	text-decoration: none;
+}
+.continer:after{
+	content: '';
+	display: table;
+	clear: both;
+	/*display: -webkit-flex;*/
+}
+.continer__left{
+	margin-right:400px ;
+	/*float: left;*/
+	/*width: 70%;*/
+	/*-webkit-flex-grow: 4;*/
+}
+.first{
+	margin: 20px;
+	padding: 20px 10px;
+	background-color: white;
+}
+.first h2,.sceond h2,.fourth h2{
+	color: gainsboro;
+}
+.author{
+	color: gainsboro;
+}
+.first a ,.sceond a{
+	color: blue;
+}
+.first p{
+	margin: 20px 0;
+	text-indent: 2em;
+}
+.sceond,.third,.fourth,.fifth{
+	margin: 20px;
+	padding: 20px 10px;
+	background-color: white;
+}
+.third ul li{
+	width: 200px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 20px;
+	border: 1px solid gainsboro;
+	list-style: none;
+}
+.third ul li p{
+	padding-top: 10px;
+	text-align: center;
+}
+.third ul li img{
+	width: 150px;
+	padding: 25px;
+}
+.fourth ol li{
+	margin-left:60px ;
+	padding-top: 20px;
+	font-weight: bolder;
+}
+.fourth table {
+	width: 90%;
+	margin: 30px;
+	border: 1px solid #DCDCDC;
+	
+}
+table th{
+	text-align: left;
+	background-color: gray;
+}
+.content td{
+	border: 1px solid black;
+}
+.fifth{
+	float: right;
+	width: 300px;
+	/*-webkit-flex-grow: 3;*/
+}
+.fifth h2{
+	margin-left: 30px;
+	padding: 10px;
+	border-left: 5px solid gainsboro;
+}
+.fifth form{
+	margin-left: 20%;
+}
+.fifth span{
+	margin-right: 20px;
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+}
+.fifth p{
+	margin-top: 20px;
+}
+.btn-confirm{
+	margin-left: -20%;
+	padding: 10px;
+	display: inline-block;
+	width: 115%;
+	border: 1px solid blue;
+	font-size: 16px;
+	color: white;
+	background-color: blue;
+	border-radius: 5px;
+}
+.foot{
+	padding: 30px;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
